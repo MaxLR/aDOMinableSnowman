@@ -30,7 +30,7 @@ yields the result as an array of `DOMNodeCollection` objects that match the sele
 
 Once you have the DOM elements selected, there are a few functions you can use to manipulate them.
 
-- `append(content)`: adds `content` to the end of the selected `DOMNodeCollection`'s `elements` array, or body depending on what has been selected.
+- <strong>`append(content)`</strong>: adds `content` to the end of the selected `DOMNodeCollection`'s `elements` array, or body depending on what has been selected.
 - `addClass(className)`: adds a `className` to the selected DOM elements' properties.
 - `removeClass(className)`: removes the specified `className` from the DOM elements' properties.
 - `attr(attribute, value)`: will either return the value of the `attribute` if the function is not provided
