@@ -30,19 +30,19 @@ yields the result as an array of `DOMNodeCollection` objects that match the sele
 
 Once you have the DOM elements selected, there are a few functions you can use to manipulate them.
 
-- <strong>`append(content)`:</strong> adds `content` to the end of the selected `DOMNodeCollection`'s `elements` array, or body depending on what has been selected.
-- <strong>`addClass(className)`:</strong> adds a `className` to the selected DOM elements' properties.
-- <strong>`removeClass(className)`:</strong> removes the specified `className` from the DOM elements' properties.
-- <strong>`attr(attribute, value)`:</strong> will either return the value of the `attribute` if the function is not provided
+- <strong>`append(content):`</strong> adds `content` to the end of the selected `DOMNodeCollection`'s `elements` array, or body depending on what has been selected.
+- <strong>`addClass(className):`</strong> adds a `className` to the selected DOM elements' properties.
+- <strong>`removeClass(className):`</strong> removes the specified `className` from the DOM elements' properties.
+- <strong>`attr(attribute, value):`</strong> will either return the value of the `attribute` if the function is not provided
 a value, otherwise, it sets the value of the provided `attribute` to `value`.
-- <strong>`children():`</strong> returns all of the selected DOM element's nested DOM elements as a `DOMNodeCollection`.
-- <strong>`parent():`</strong> returns the parent DOM element or elements as a `DOMNodeCollection`.
-- <strong>`remove():`</strong> deletes the DOM element from the page.
-- <strong>`find(selector)`:</strong> returns nested DOM elements that meet the `selector` criteria.
-- <strong>`html(textContent)`:</strong> if provided `textContent` it will set the HTML content, otherwise it returns the
+- <strong>`children(:)`</strong> returns all of the selected DOM element's nested DOM elements as a `DOMNodeCollection`.
+- <strong>`parent(:)`</strong> returns the parent DOM element or elements as a `DOMNodeCollection`.
+- <strong>`remove(:)`</strong> deletes the DOM element from the page.
+- <strong>`find(selector):`</strong> returns nested DOM elements that meet the `selector` criteria.
+- <strong>`html(textContent):`</strong> if provided `textContent` it will set the HTML content, otherwise it returns the
 HTML content inside of the element.
-- <strong>`on(event, callback)`:</strong> places an event listener on the DOM element with the specified callback
-- <strong>`off(event)`:</strong> removes the specified event listener on the DOM element
+- <strong>`on(event, callback):`</strong> places an event listener on the DOM element with the specified callback
+- <strong>`off(event):`</strong> removes the specified event listener on the DOM element
 
 ##### Extends
 
