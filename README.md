@@ -50,7 +50,7 @@ HTML content inside of the element.
 
 ##### Ajax
 
-aDOMinableSnowman also comes implements an Ajax function, `$a.ajax(options)`. Default options are provided,
+aDOMinableSnowman also implements an Ajax function, `$a.ajax(options)`. Default options are provided,
 but by using $a.extend, it allows aDOMinableSnowman to pass in optional arguments as well.
 
 ```javascript
